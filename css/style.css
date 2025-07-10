@@ -421,3 +421,47 @@ form input[type = "submit"]{
 .social-widget p{
   font-family: 'Raleway', sans-serif;
 }
+/* ------------------PRODUCT PAGE----------------------- */
+    .product-detail {
+      max-width: 1000px;
+      margin: 50px auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 0 20px;
+    }
+    .product-image {
+      flex: 1 1 300px;
+    }
+    .product-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product-info {
+      flex: 2 1 400px;
+    }
+    .product-info h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .product-info p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .price {
+      font-size: 1.5em;
+      color: #6b4f3b;
+      margin-bottom: 20px;
+    }
+    .button {
+      background-color: #6b4f3b;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .button:hover {
+      background-color: #543c2a;
+    }
